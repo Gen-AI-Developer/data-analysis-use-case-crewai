@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-data-analysis-use-case-crewai = "data_analysis_use_case_crewai:main"
+kickoff = "data_analysis_use_case_crewai:main"
 
 [build-system]
 requires = ["hatchling"]
