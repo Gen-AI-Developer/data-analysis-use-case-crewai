@@ -10,10 +10,12 @@ requires-python = ">=3.12"
 dependencies = [
     "crewai>=0.105.0",
     "crewai-tools>=0.37.0",
+    "matplotlib>=3.10.1",
 ]
 
 [project.scripts]
 kickoff = "data_analysis_use_case_crewai:main"
+create-charts = "data_analysis_use_case_crewai.charts:main"
 
 [build-system]
 requires = ["hatchling"]

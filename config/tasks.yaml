@@ -31,6 +31,7 @@ table_generation:
     A set of tables summarizing the key metrics and trends observed in the
     support data, ready to be used for chart generation.
 
+
 chart_generation:
   description: >
     Generate charts based on the tables provided by the previous task. The
@@ -54,6 +55,7 @@ chart_generation:
     A set of charts that visually represent the key metrics and trends observed
     in the support data, ready to be integrated into the final report.
 
+
 final_report_assembly:
   description: >
     Assemble the final report by integrating the tables and charts generated in
@@ -76,8 +78,7 @@ final_report_assembly:
     areas for improvement.
   expected_output: >
     A comprehensive final report that integrates tables, charts, and actionable
-    insights into a single document, formatted for stakeholders.
-    Don't add '```' or '```markdown' to the report.
+    insights into a single document, formatted for stakeholders. create charts with matplotlib
 
 
 

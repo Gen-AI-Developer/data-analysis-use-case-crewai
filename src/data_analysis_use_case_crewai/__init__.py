@@ -2,9 +2,7 @@
 import warnings
 warnings.filterwarnings('ignore')
 from crewai_tools import FileReadTool
-import os
 import yaml
-from IPython.display import display, Markdown
 from crewai import Agent, Task, Crew
 # Define file paths for YAML configurations
 def main():
@@ -42,7 +40,7 @@ def main():
 
     chart_generation_agent = Agent(
     config=agents_config['chart_generation_agent'],
-    allow_code_execution=False
+    allow_code_execution=True
     )
 
     # Creating Tasks
